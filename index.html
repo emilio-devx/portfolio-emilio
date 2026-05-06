@@ -10,26 +10,26 @@
 <body>
     <header>
         <div>
-            <h2>&lt;/&gt;</h2>
+            <h2 class="logo">&lt;/&gt;</h2>
         </div>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Sobre mí</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Habilidades</a>
-            <a href="#">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
         </nav>
     </header>
-    <section class="section-hero">
+    <section class="section-hero" id="inicio">
         <div class="hero-content">
             <div class="hero-left">
                 <h3>!Hola¡, soy</h3>
                 <h1>Emilio</h1>
                 <h2>Desarrollador web</h2>
                 <p>Desarrollo aplicaciones y sitios web modernos,<br>rápidos y responsivos con tecnologías actuales.</p>
-                <div>
-                    <button>Ver proyectos</button>
-                    <button>Contactar</button>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Ver proyectos</button>
+                    <button class="btn-secondary">Contactar</button>
                 </div>
                 <div class="social-links">
                     <a href="https://github.com/emilio-devx">
@@ -53,7 +53,7 @@
             </div>
         </div>
     </section>
-    <section class="section-description">
+    <section class="section-description" id="sobre-mi">
         <h3>Sobre mí</h3>
         <div class="div-sobre-mi">
             <div>
@@ -65,17 +65,72 @@
                     <br>estoy empapando en el mundo de React y TailwindCss. Disfruto convertir ideas en 
                     <br>situaciones digitales funcionales.
                 </p>
-
             </div>
         </div>
+        <h3 id="habilidades">Habilidades</h3>
         <div class="div-habilidades">
-
+            <img src="Img/Icons/html-icon.svg" alt="html-icon">
+            <img src="Img/Icons/css-icon.svg" alt="">
+            <img src="Img/Icons/javascript-icon.svg" alt="">
+            <img src="Img/Icons/react-icon.svg" alt="">
+            <img src="Img/Icons/tailwindcss-icon.svg" alt="">
+            <img src="Img/Icons/git-icon.svg" alt="">
         </div>
+        <h3 id="proyectos">Proyectos</h3>
         <div class="div-proyectos">
+            <div class="project-card">
+                <img src="Img/Projects/ecomerce-rollers.png" alt="ecommerce-app">
+                <h4>E-commerce Roller</h4>
+                <p>Tienda online de patinaje creada con React, Tailwind, Node.js y consumo de API.</p>
+                <a href="https://github.com/emilio-devx/CVProject/tree/main/E-Comerce_Cv" class="btn-primary">Ver proyecto</a>
+            </div>
+        
+            <div class="project-card">
+                <img src="Img/Projects/to-do.png" alt="to-do-app">
+                <h4>To-Do App</h4>
+                <p>Aplicación de tareas con JavaScript, estados, filtros y almacenamiento local.</p>
+                <a href="https://github.com/emilio-devx/CVProject/tree/main/cvProject" class="btn-primary">Ver proyecto</a>
+            </div>
 
+            <div class="project-card">
+                <img src="Img/Projects/projects-future.png" alt="future-projects">
+                <h4>Futuras aplicaciones</h4>
+                <p>Futuras apps pensadas como: dropzone, linktree, dashboard de datos, entre otros.
+                </p>
+                <a href="#" class="btn-primary">Ver proyecto</a>
+            </div>
         </div>
+        <h3 id="contacto">Contacto</h3>
         <div class="div-contacto">
+            <div class="left-div-contacto">
+                <div class="contact-item">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>emilioharo2@gmail.com</span>
+                </div>
             
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Barcelona</span>
+                </div>
+            
+                <div class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    <span>github.com/emilio-devx</span>
+                </div>
+            </div>
+            <div class="right-div-contacto">
+                <form action="#">
+                    <div>
+                        <input type="text" placeholder="Nombre">
+                        <input type="email" placeholder="Email">
+                    </div>
+                
+                    <input type="text" placeholder="Asunto">
+                    <textarea placeholder="Mensaje"></textarea>
+                
+                    <button class="btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
         </div>
     </section>
     <footer></footer>
