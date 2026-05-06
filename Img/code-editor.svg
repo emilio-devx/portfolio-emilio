@@ -1,0 +1,93 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" fill="none"/>
+
+  <defs>
+    <linearGradient id="bg" x1="90" y1="80" x2="810" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#050814"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="110" y1="90" x2="790" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#070B16"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <rect x="80" y="80" width="740" height="560" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <!-- Window -->
+  <rect x="80" y="80" width="740" height="560" rx="24" fill="url(#panel)" stroke="#263247" stroke-width="3"/>
+
+  <g clip-path="url(#clip)">
+    <!-- Top bar -->
+    <rect x="80" y="80" width="740" height="66" fill="#0D1422"/>
+    <line x1="80" y1="146" x2="820" y2="146" stroke="#1E293B" stroke-width="2"/>
+
+    <!-- Sidebar areas -->
+    <rect x="80" y="146" width="185" height="494" fill="#080D18"/>
+    <rect x="265" y="146" width="82" height="494" fill="#070B14"/>
+    <line x1="265" y1="146" x2="265" y2="640" stroke="#111827" stroke-width="2"/>
+    <line x1="347" y1="146" x2="347" y2="640" stroke="#111827" stroke-width="2"/>
+
+    <!-- Very subtle vertical panel shade -->
+    <rect x="610" y="146" width="210" height="494" fill="#0A0F1D" opacity="0.34"/>
+  </g>
+
+  <!-- Buttons -->
+  <circle cx="120" cy="113" r="10" fill="#FF5F57"/>
+  <circle cx="153" cy="113" r="10" fill="#FEBC2E"/>
+  <circle cx="186" cy="113" r="10" fill="#28C840"/>
+
+  <!-- Left sidebar short lines and dots -->
+  <g fill="#334155" opacity="0.9">
+    <rect x="126" y="213" width="62" height="9" rx="4.5"/>
+    <rect x="126" y="244" width="42" height="9" rx="4.5"/>
+    <circle cx="123" cy="279" r="8"/>
+    <rect x="148" y="274" width="92" height="9" rx="4.5"/>
+    <circle cx="123" cy="323" r="8"/>
+    <rect x="148" y="318" width="72" height="9" rx="4.5"/>
+    <circle cx="123" cy="367" r="8"/>
+    <rect x="148" y="362" width="86" height="9" rx="4.5"/>
+    <circle cx="123" cy="411" r="8"/>
+    <rect x="148" y="406" width="90" height="9" rx="4.5"/>
+    <circle cx="123" cy="455" r="8"/>
+    <rect x="148" y="450" width="70" height="9" rx="4.5"/>
+    <circle cx="123" cy="499" r="8"/>
+    <rect x="148" y="494" width="52" height="9" rx="4.5"/>
+  </g>
+
+  <!-- Center dotted line numbers -->
+  <g fill="#263247">
+    <circle cx="305" cy="215" r="6"/>
+    <circle cx="305" cy="254" r="6"/>
+    <circle cx="305" cy="293" r="6"/>
+    <circle cx="305" cy="332" r="6"/>
+    <circle cx="305" cy="371" r="6"/>
+    <circle cx="305" cy="410" r="6"/>
+    <circle cx="305" cy="449" r="6"/>
+    <circle cx="305" cy="488" r="6"/>
+    <circle cx="305" cy="527" r="6"/>
+    <circle cx="305" cy="566" r="6"/>
+  </g>
+
+  <!-- Code lines: smaller, like reference -->
+  <g>
+    <rect x="350" y="213" width="132" height="10" rx="5" fill="#8B5CF6"/>
+    <rect x="380" y="258" width="205" height="10" rx="5" fill="#6366F1"/>
+    <rect x="425" y="303" width="255" height="10" rx="5" fill="#2DD4BF"/>
+    <rect x="400" y="348" width="230" height="10" rx="5" fill="#8B5CF6"/>
+    <rect x="438" y="393" width="170" height="10" rx="5" fill="#F59E0B"/>
+    <rect x="471" y="438" width="205" height="10" rx="5" fill="#F59E0B"/>
+    <rect x="470" y="483" width="150" height="10" rx="5" fill="#F97316"/>
+    <rect x="435" y="528" width="48" height="10" rx="5" fill="#FB7185"/>
+    <rect x="405" y="573" width="94" height="10" rx="5" fill="#F472B6"/>
+    <rect x="405" y="620" width="150" height="10" rx="5" fill="#6366F1"/>
+  </g>
+
+  <!-- Code icon -->
+  <g stroke="#64748B" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M694 534L660 568L694 602"/>
+    <path d="M772 534L806 568L772 602"/>
+    <path d="M744 526L716 610"/>
+  </g>
+</svg>
