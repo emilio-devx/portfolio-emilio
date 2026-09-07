@@ -99,6 +99,14 @@ a{
     color: inherit;
 }
 
+.link-beauty{
+    color: #0d58d1;
+}
+
+.link-beauty:hover {
+  text-decoration: underline;
+}
+
 /*Hero content*/
 .section-hero{
     min-height: 85vh;
@@ -258,8 +266,8 @@ a{
     transform:translateY(-6px);
 }
 
-/*Section Proyectos */
-.div-proyectos{
+/*Section Projects */
+.div-projects{
     margin-top:2rem;
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
